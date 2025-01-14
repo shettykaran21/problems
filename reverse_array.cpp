@@ -4,7 +4,8 @@ using namespace std;
 
 /*
     Temp array
-    O(n) time, O(n) space
+    Time - O(n)
+    Space - O(n)
 */
 void solve_1(vector<int> &nums) {
     vector<int> temp(nums);
@@ -20,7 +21,8 @@ void solve_1(vector<int> &nums) {
 
 /*
     Two pointers
-    O(n) time, O(1) space
+    Time - O(n)
+    Space - O(1)
 */
 void solve_2(vector<int> &nums) {
     int i = 0, j = nums.size() - 1;
@@ -34,7 +36,8 @@ void solve_2(vector<int> &nums) {
 
 /*
     Inbuilt method
-    O(n) time, O(1) space
+    Time - O(n)
+    Space - O(1)
 */
 void solve_3(vector<int> &nums) {
     reverse(nums.begin(), nums.end());

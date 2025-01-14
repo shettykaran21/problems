@@ -4,7 +4,8 @@ using namespace std;
 
 /*
     Sort the array, Check with previous value
-    O(nlogn) time, O(1) space
+    Time - O(nlogn)
+    Space - O(1)
 */
 int solve_1(vector<int> nums) {
     sort(nums.begin(), nums.end());
@@ -25,7 +26,8 @@ int solve_1(vector<int> nums) {
     Hash set (unordered_set)
     Insert elements in a hash set
     If element already exist, return that element, else insert in that set
-    O(n) time, O(n) space
+    Time - O(n)
+    Space - O(n)
 */
 int solve_2(vector<int> &nums) {
     unordered_set<int> s;
@@ -42,7 +44,8 @@ int solve_2(vector<int> &nums) {
 
 /*
     Frequency array
-    O(n) time, O(n) space
+    Time - O(n)
+    Space - O(n)
 */
 int solve_3(vector<int> &nums) {
     vector<int> freq(nums.size());
@@ -59,7 +62,8 @@ int solve_3(vector<int> &nums) {
 
 /*
     In-place frequency array
-    O(n) time, O(1) space
+    Time - O(n)
+    Space - O(1)
  */
 int solve_4(vector<int> &nums) {
     int n = nums.size();
@@ -78,7 +82,8 @@ int solve_4(vector<int> &nums) {
 
 /*
     Floyd's Algorithm (Tortoise & Hare)
-    O(n) time, O(1) space
+    Time - O(n)
+    Space - O(1)
  */
 int solve_5(vector<int> &nums) {
     int slow = 0, fast = 0;
