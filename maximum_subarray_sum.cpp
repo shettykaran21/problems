@@ -44,6 +44,36 @@ int solve_2(vector<int> &nums) {
     return sum;
 }
 
+/*
+    Variation a) Print the Subarray with Maximum Sum
+    Whenever sum is 0, it means a new subarray is starting
+*/
+pair<int, int> solve_3(vector<int> &nums) {
+    int n = nums.size();
+    long long maxi = LONG_MIN, sum = 0;
+
+    int start = 0, startIndex = 0, endIndex = 0;
+
+    for (int i = 0; i < n; ++i) {
+        if (sum == 0) {
+            start = i;
+        }
+
+        sum += nums[i];
+
+        if (sum > maxi) {
+            startIndex = start, endIndex = i;
+            maxi = sum;
+        }
+
+        if (sum < 0) {
+            sum = 0;
+        }
+    }
+
+    return make_pair(startIndex, endIndex);
+}
+
 int main() {
     return 0;
 }
