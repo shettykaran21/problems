@@ -7,4 +7,8 @@
 3.  [Set matrix zeroes](set_matrix_zeroes.cpp)
 4.  [Merge Overlapping Sub-Intervals](merge_intervals.cpp)
 5.  [Maximum Subarray Sum / Kadane's Algorithm](maximum_subarray_sum.cpp)
-    a. Print the Subarray with Maximum Sum
+    i. Return maximum sum
+    ii. Print the Subarray with Maximum Sum
+6.  [2 Sum](2_sum.cpp)
+    i. Return indices
+    ii. Return true/false

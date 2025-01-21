@@ -2,6 +2,8 @@
 
 using namespace std;
 
+/* --------------------------------Variation i - Return maximum sum -------------------------------- */
+
 /*
     Time - O(n^2)
     Space - O(1)
@@ -44,9 +46,12 @@ int solve_2(vector<int> &nums) {
     return sum;
 }
 
+/* --------------------------------Variation ii - Print the Subarray with Maximum Sum -------------------------------- */
+
 /*
-    Variation a) Print the Subarray with Maximum Sum
     Whenever sum is 0, it means a new subarray is starting
+    Time - O(n)
+    Space - O(1)
 */
 pair<int, int> solve_3(vector<int> &nums) {
     int n = nums.size();
