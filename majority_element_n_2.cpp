@@ -61,10 +61,7 @@ int solve_3(vector<int> &nums) {
         if (count == 0) {
             candidate = el;
             count++;
-            continue;
-        }
-
-        if (el == candidate) {
+        } else if (el == candidate) {
             count++;
         } else {
             count--;

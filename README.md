@@ -14,3 +14,4 @@
     ii. Return true/false
 7.  [Sort colors / Sort an array of 0s, 1s, 2s](sort_colors.cpp) - Dutch National Flag Algorithm
 8.  [Majority Element (n / 2)](majority_element_n_2.cpp)
+9.  [Majority Element (n / 3)](majority_element_n_3.cpp)
