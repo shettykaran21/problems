@@ -2,6 +2,11 @@
 
 using namespace std;
 
+/*
+    Brute force
+    Time - O(n^2)
+    Space - O(1)
+*/
 vector<int> solve_1(vector<int> &nums) {
     int n = nums.size();
     vector<int> res;
@@ -27,6 +32,12 @@ vector<int> solve_1(vector<int> &nums) {
     return res;
 }
 
+/*
+    Better - Hashing
+
+    Time - O(n)
+    Space - O(n)
+*/
 vector<int> solve_2(vector<int> &nums) {
     int n = nums.size();
     vector<int> res;
@@ -51,6 +62,9 @@ vector<int> solve_2(vector<int> &nums) {
     return res;
 }
 
+/*
+    Optimal - Moore's Voting Algorithm
+*/
 vector<int> solve_3(vector<int> &nums) {
     int count1 = 0, count2 = 0;
     int candidate1, candidate2;
