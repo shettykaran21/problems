@@ -16,3 +16,4 @@
 8.  [Majority Element (n / 2)](majority_element_n_2.cpp)
 9.  [Majority Element (n / 3)](majority_element_n_3.cpp)
 10. [Stock buy and sell](stock_buy_and_sell.cpp)
+11. [Next Permutation](next_permutation.cpp)
