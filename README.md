@@ -17,3 +17,4 @@
 9.  [Majority Element (n / 3)](majority_element_n_3.cpp)
 10. [Stock buy and sell](stock_buy_and_sell.cpp)
 11. [Next Permutation](next_permutation.cpp)
+12. [Maximum Product Subarray](maximum_product_subarray.cpp)
