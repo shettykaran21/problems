@@ -27,4 +27,7 @@
 
 ## Binary Search
 
+Answer ek range mein hai + max/min find karne ka hai => Binary Search
+
 1. [Sqrt(x)](sqrt.cpp)
+2. [nth root of m](nth_root_of_m.cpp)
