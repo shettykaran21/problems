@@ -24,3 +24,7 @@
 1.  [Set matrix zeroes](set_matrix_zeroes.cpp)
 2.  [Search a 2D Matrix](search_2d_matrix.cpp)
 3.  [Search a 2D Matrix II](search_2d_matrix_ii.cpp)
+
+## Binary Search
+
+1. [Sqrt(x)](sqrt.cpp)
