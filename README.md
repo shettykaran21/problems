@@ -31,3 +31,4 @@ Answer ek range mein hai + max/min find karne ka hai => Binary Search
 
 1. [Sqrt(x)](sqrt.cpp)
 2. [nth root of m](nth_root_of_m.cpp)
+3. [Minimum no of days to make m bouquets](min_days_to_make_m_bouquets.cpp)
