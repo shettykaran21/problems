@@ -35,3 +35,4 @@ Answer ek range mein hai + max/min find karne ka hai => Binary Search
 4. [Minimum no of days to make m bouquets](min_days_to_make_m_bouquets.cpp)
 5. [Smallest divisor](smallest_divisor.cpp)
 6. [Capacity to Ship packages within d days](capacity_to_ship_packages.cpp)
+7. [Aggressive Cows](aggressive_cows.cpp)
