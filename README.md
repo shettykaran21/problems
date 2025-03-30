@@ -2,29 +2,39 @@
 
 ## Array
 
-1.  [Reverse an array](reverse_array.cpp)
-2.  [Second Largest in an array](second_largest_in_array.cpp)
-3.  [Find the duplicate number](find_duplicate_number.cpp)
-4.  [Merge Overlapping Sub-Intervals](merge_intervals.cpp)
-5.  [Maximum Subarray Sum](maximum_subarray_sum.cpp) - Kadane's Algorithm
-    1. Return maximum sum
-    2. Print the Subarray with Maximum Sum
-6.  [2 Sum](2_sum.cpp)
-    1. Return indices
+### Easy
+
+1.  [Reverse an array](reverse_array.cpp) ([Leetcode](https://www.geeksforgeeks.org/problems/reverse-an-array/0))
+
+### Easy + Important
+
+1.  [2 Sum](2_sum.cpp)
+    1. Return indices ([Leetcode](https://leetcode.com/problems/two-sum/description/))
     2. Return true/false
-7.  [Sort colors / Sort an array of 0s, 1s, 2s](sort_colors.cpp) - Dutch National Flag Algorithm
-8.  [Majority Element (n / 2)](majority_element_n_2.cpp)
-9.  [Majority Element (n / 3)](majority_element_n_3.cpp)
-10. [Stock buy and sell](stock_buy_and_sell.cpp)
-11. [Next Permutation](next_permutation.cpp)
-12. [Maximum Product Subarray](maximum_product_subarray.cpp)
-13. [Merge two sorted arrays without extra space](merge_two_sorted_arrays_without_extra_space.cpp)
+2.  [Majority Element (n / 2)](majority_element_n_2.cpp) ([Leetcode](https://leetcode.com/problems/majority-element/description/))
+3.  [Stock buy and sell](stock_buy_and_sell.cpp) ([Leetcode](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/))
+4.  Merge sorted arrays ([Leetcode](https://leetcode.com/problems/merge-sorted-array/description/))
+5.  [Second Largest in an array](second_largest_in_array.cpp) ([GFG](https://www.geeksforgeeks.org/problems/second-largest3735/1))
+6.  [Check if Array is Sorted and Rotated](check_array_is_sorted_and_rotated.cpp) ([Leetcode](https://leetcode.com/problems/check-if-array-is-sorted-and-rotated/description/))
+
+### Medium + Important
+
+1.  [Find the duplicate number](find_duplicate_number.cpp) ([Leetcode](https://leetcode.com/problems/find-the-duplicate-number/description/))
+2.  [Merge Overlapping Sub-Intervals](merge_intervals.cpp) ([Leetcode](https://leetcode.com/problems/merge-intervals/description/))
+3.  [Maximum Subarray Sum](maximum_subarray_sum.cpp) - Kadane's Algorithm
+    1. Return maximum sum ([Leetcode](https://leetcode.com/problems/maximum-subarray/description/))
+    2. Print the Subarray with Maximum Sum ([GFG](https://www.geeksforgeeks.org/problems/maximum-sub-array5443/1))
+4.  [Sort colors / Sort an array of 0s, 1s, 2s](sort_colors.cpp) - Dutch National Flag Algorithm ([Leetcode](https://leetcode.com/problems/sort-colors/description/))
+5.  [Majority Element (n / 3)](majority_element_n_3.cpp) ([Leetcode](https://leetcode.com/problems/majority-element-ii/description/))
+6.  [Next Permutation](next_permutation.cpp) ([Leetcode](https://leetcode.com/problems/next-permutation/))
+7.  [Maximum Product Subarray](maximum_product_subarray.cpp) ([Leetcode](https://leetcode.com/problems/maximum-product-subarray/))
+8.  [Merge two sorted arrays without extra space](merge_two_sorted_arrays_without_extra_space.cpp) ([Leetcode](https://www.geeksforgeeks.org/problems/merge-two-sorted-arrays-1587115620/1))
 
 ## Matrix
 
-1.  [Set matrix zeroes](set_matrix_zeroes.cpp)
-2.  [Search a 2D Matrix](search_2d_matrix.cpp)
-3.  [Search a 2D Matrix II](search_2d_matrix_ii.cpp)
+1.  [Set matrix zeroes](set_matrix_zeroes.cpp) ([Leetcode](https://leetcode.com/problems/set-matrix-zeroes/))
+2.  [Search a 2D Matrix](search_2d_matrix.cpp) ([Leetcode](https://leetcode.com/problems/search-a-2d-matrix/))
+3.  [Search a 2D Matrix II](search_2d_matrix_ii.cpp) ([Leetcode](https://leetcode.com/problems/search-a-2d-matrix-ii/))
 
 ## Binary Search
 
