@@ -13,12 +13,9 @@ int solve_1(int n) {
     while (low <= high) {
         int mid = low + (high - low) / 2;
 
-        long long squared = (long long)mid * mid;
-        if (squared == n) {
-            return mid;
-        } else if (squared < n) {
-            low = mid + 1;
+        if (mid * mid <= n) {
             ans = mid;
+            low = mid + 1;
         } else {
             high = mid - 1;
         }
