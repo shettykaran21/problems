@@ -16,6 +16,7 @@
 4.  Merge sorted arrays ([Leetcode](https://leetcode.com/problems/merge-sorted-array/description/))
 5.  [Second Largest in an array](second_largest_in_array.cpp) ([GFG](https://www.geeksforgeeks.org/problems/second-largest3735/1))
 6.  [Check if Array is Sorted and Rotated](check_array_is_sorted_and_rotated.cpp) ([Leetcode](https://leetcode.com/problems/check-if-array-is-sorted-and-rotated/description/))
+7.  [Remove duplicates from sorted array](remove_duplicates_from_sorted_array.cpp) ([Leetcode](https://leetcode.com/problems/remove-duplicates-from-sorted-array/description/))
 
 ### Medium + Important
 
