@@ -5,6 +5,7 @@
 ### Easy
 
 1.  [Reverse an array](reverse_array.cpp) ([Leetcode](https://www.geeksforgeeks.org/problems/reverse-an-array/0))
+2.  [Rotate array by one place](rotate_array_by_one_place.cpp) ([GFG](https://www.geeksforgeeks.org/problems/cyclically-rotate-an-array-by-one2614/1))
 
 ### Easy + Important
 
