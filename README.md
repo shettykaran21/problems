@@ -6,7 +6,8 @@
 
 1.  [Reverse an array](reverse_array.cpp) ([Leetcode](https://www.geeksforgeeks.org/problems/reverse-an-array/0))
 2.  [Rotate array by one place](rotate_array_by_one_place.cpp) ([GFG](https://www.geeksforgeeks.org/problems/cyclically-rotate-an-array-by-one2614/1))
-3.  Binary search ([GFG](https://www.geeksforgeeks.org/problems/who-will-win-1587115621/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=who-will-win))
+3.  Binary search ([GFG](https://www.geeksforgeeks.org/problems/who-will-win-1587115621/1))
+4.  [Union of two sorted arrays](union_of_sorted_arrays.cpp) ([GFG](https://www.geeksforgeeks.org/problems/union-of-two-sorted-arrays-1587115621/1))
 
 ### Easy + Important
 
