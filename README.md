@@ -22,6 +22,7 @@
 7.  [Remove duplicates from sorted array](remove_duplicates_from_sorted_array.cpp) ([Leetcode](https://leetcode.com/problems/remove-duplicates-from-sorted-array/description/))
 8.  [Rotate elements by k places](rotate_array.cpp) ([Leetcode](https://leetcode.com/problems/rotate-array/description/))
 9.  [Move zeroes to end](move_zeroes_to_end.cpp) ([Leetcode](https://leetcode.com/problems/move-zeroes/description/))
+10. [Missing Number](missing_number.cpp) ([Leetcode](https://leetcode.com/problems/missing-number/))
 
 ### Medium + Important
 
