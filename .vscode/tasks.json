@@ -4,7 +4,7 @@
         {
             "type": "cppbuild",
             "label": "C/C++: g++-14 build active file",
-            "command": "/opt/homebrew/bin/g++-14",
+            "command": "/opt/homebrew/bin/g++-15",
             "args": [
                 "-fdiagnostics-color=always",
                 "${file}",
@@ -18,7 +18,7 @@
             "group": {
                 "kind": "build"
             },
-            "detail": "compiler: /opt/homebrew/bin/g++-14"
+            "detail": "compiler: /opt/homebrew/bin/g++-15"
         },
         {
             "label": "Run and Delete active file",
