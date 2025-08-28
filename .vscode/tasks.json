@@ -3,7 +3,7 @@
     "tasks": [
         {
             "type": "cppbuild",
-            "label": "C/C++: g++-14 build active file",
+            "label": "C/C++: g++ build active file",
             "command": "/opt/homebrew/bin/g++-15",
             "args": [
                 "-fdiagnostics-color=always",
@@ -39,7 +39,7 @@
             "label": "Build and Run active file",
             "dependsOrder": "sequence",
             "dependsOn": [
-                "C/C++: g++-14 build active file",
+                "C/C++: g++ build active file",
                 "Run and Delete active file"
             ],
             "problemMatcher": [],
