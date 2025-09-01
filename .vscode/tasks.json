@@ -6,6 +6,7 @@
             "label": "C/C++: g++ build active file",
             "command": "/opt/homebrew/bin/g++-15",
             "args": [
+                "-std=c++23",
                 "-fdiagnostics-color=always",
                 "${file}",
                 "-o",
