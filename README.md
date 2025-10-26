@@ -3,6 +3,7 @@
 ## Basic Maths
 
 1. [Check for perfect number](perfect_number.cpp)
+2. [GCD](gcd.cpp)
 
 ## Array
 
