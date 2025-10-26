@@ -1,5 +1,9 @@
 # Problems
 
+## Basic Maths
+
+1. [Check for perfect number](perfect_number.cpp)
+
 ## Array
 
 ### Easy
