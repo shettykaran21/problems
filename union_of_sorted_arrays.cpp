@@ -43,18 +43,18 @@ vector<int> solve_2(vector<int> &a, vector<int> &b) {
 
     while (i < n1 && j < n2) {
         if (a[i] < b[j]) {
-            if (res.size() == 0 || res.back() != a[i]) {
+            if (res.empty() || res.back() != a[i]) {
                 res.push_back(a[i]);
             }
 
             i++;
         } else if (a[i] > b[j]) {
-            if (res.size() == 0 || res.back() != b[j]) {
+            if (res.empty() || res.back() != b[j]) {
                 res.push_back(b[j]);
             }
             j++;
         } else {
-            if (res.size() == 0 || res.back() != a[i]) {
+            if (res.empty() || res.back() != a[i]) {
                 res.push_back(a[i]);
             }
             i++;
