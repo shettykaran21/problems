@@ -10,6 +10,9 @@ using namespace std;
     Optimization is instead of repeatedly subtracting a - b, just use modulo operator.
     Eg. If a = 100, b = 5, if we subtract, 100 - 5 = 95, 95 - 5 = 90, 90 - 5 = 85..... this will go on..
     Instead, we can do 100 % 5 = 0, we directly have one of the numbers as 0, and hence the answer is the other number i.e. 5
+
+    Time complexity - O(log(min(a, b)))
+    Space complexity - O(1)
 */
 
 int gcd(int a, int b) {

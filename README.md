@@ -4,6 +4,7 @@
 
 1. [Check for perfect number](perfect_number.cpp)
 2. [GCD](gcd.cpp)
+3. [LCM](lcm.cpp)
 
 ## Array
 
