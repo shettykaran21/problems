@@ -18,15 +18,15 @@ using namespace std;
     -> Reverse elements in range [n - k, n]
     -> Reverse entire array
 
-    Time - O(n - k) + O(k) + O(n) => O(2n)
+    Time - O(k) + O(n - k) + O(n) => O(2n)
     Space - O(1)
 */
-void solve(vector<int> &v, int k) {
+void solve(vector<int>& v, int k) {
     int n = v.size();
     k = k % n;
 
-    reverse(v.begin(), v.begin() + n - k);
-    reverse(v.begin() + n - k, v.end());
+    reverse(v.begin(), v.begin() + k);
+    reverse(v.begin() + k, v.end());
     reverse(v.begin(), v.end());
 }
 
