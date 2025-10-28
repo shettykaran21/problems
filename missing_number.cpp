@@ -30,11 +30,16 @@ int solve_1(vector<int> &nums) {
 */
 int solve_2(vector<int> &nums) {
     int n = nums.size();
-
-    sort(nums.begin(), nums.end());
+    vector<int> freq(n + 1, 0);
 
     for (int i = 0; i < n; ++i) {
-        if (nums[i] != i) return i;
+        freq[nums[i]]++;
+    }
+
+    for (int i = 0; i < n + 1; ++i) {
+        if (freq[i] == 0) {
+            return i;
+        }
     }
 
     return n;
