@@ -38,17 +38,14 @@ void solve_2(vector<int>& nums) {
     int n = nums.size();
     if (n <= 1) return;
 
-    int j = -1;
-
+    int j = 0;
     // Point j at first 0
-    for (int i = 0; i < n; ++i) {
-        if (nums[i] == 0) {
-            j = i;
+    for (int& el : nums) {
+        if (el == 0) {
             break;
         }
+        j++;
     }
-
-    if (j == -1) return;
 
     for (int i = j + 1; i < n; ++i) {
         if (nums[i] != 0) {
