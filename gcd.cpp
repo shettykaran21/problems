@@ -5,7 +5,7 @@ using namespace std;
 /*
     Euclidean algorithm - gcd(a, b) = gcd(a - b, b)
     Do this subtraction until one of the numbers is 0. Then, the other number is the GCD.
-    (No need to check the proff of this algorithm, we are here to code, not do maths 😉)
+    (No need to check the proof of this algorithm, we are here to code, not do maths 😉)
 
     Optimization is instead of repeatedly subtracting a - b, just use modulo operator.
     Eg. If a = 100, b = 5, if we subtract, 100 - 5 = 95, 95 - 5 = 90, 90 - 5 = 85..... this will go on..
@@ -16,6 +16,9 @@ using namespace std;
 */
 
 int gcd(int a, int b) {
+    if (a == 0) return b;
+    if (b == 0) return a;
+
     return gcd(b, a % b);
 }
 
